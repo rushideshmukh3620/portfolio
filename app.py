@@ -31,7 +31,7 @@ st.markdown("""
 col1, col2 = st.columns([1, 2])
 
 with col1:  
-    st.image(passport_photo, caption="Rushikesh Deshmukh", width=280)  
+    st.image(passport_photo, caption="Rushikesh Deshmukh", width=290)  
 
 with col2:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
