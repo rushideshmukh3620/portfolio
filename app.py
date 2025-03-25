@@ -31,7 +31,7 @@ st.markdown("""
 col1, col2 = st.columns([1, 2])
 
 with col1:  
-    st.image(passport_photo, caption="Rushikesh Deshmukh", width=300)  
+    st.image(passport_photo, caption="Rushikesh Deshmukh", width=280)  
 
 with col2:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
@@ -134,8 +134,7 @@ with col1:
     st.subheader("🚀 Projects")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<h4>🏡 SGPA Prediction</h4>"
-                "<p>Predicts SGPA for the fifth semester based on previous four semester scores.</p>"
-                "<p><a href='https://github.com/rushideshmukh3620/SGPAPrediction.git' style='color:white;'>GitHub</a></p>"
+                "<p>Predicts SGPA for the fifth semester based on previous four semester scores. <a href='https://github.com/rushideshmukh3620/SGPAPrediction.git' style='color:white;'>Link</a></p>"
                 "</div>", unsafe_allow_html=True)
 
 st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
@@ -147,8 +146,10 @@ with col2:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<h3>📜 Certifications</h3>"
                 "<ul>"
-                "<li>Data Science Job Simulation (British Airways, Apr 2024)</li>"
-                "<li>Full Stack Data Science & AI (Naresh IT, Oct 2021 - Mar 2022)</li>"
+                "<li> Full Stack Data Science & AI (Naresh IT, Oct 2021 - Mar 2022) <a href='https://www.linkedin.com/posts/rushideshmukh3620_machinelearning-datascience-artificialintelligence-activity-7163174936453234690-Y7FQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white;'>Link</a></li>"
+                "<li> Data Analytics and Visualization Job Simulation (Accenture, January 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-forage-accenture-activity-7150485871014617088-mYoV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white;'>Link</a></li>"
+                "<li> Data Visualisation: Empowering Business with Effective Insights (TATA, January 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-forage-tcs-activity-7155951764121268224-eDB5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white;'>Link</a></li>"
+                "<li> Data Science Job Simulation (British Airways, Apr 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-certification-continuouslearning-activity-7198595719371378688-MnIW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white;'>Link</a></li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
