@@ -1,13 +1,42 @@
 import streamlit as st
 from PIL import Image
 import random
+import base64
+
+# Set page title and icon
+st.set_page_config(page_title="Rushikesh Deshmukh - Portfolio", page_icon="📂", layout="wide")
+
+# # Function to set the background image
+# def set_background(image_file):
+#     with open(image_file, "rb") as image:
+#         encoded_image = base64.b64encode(image.read()).decode()
+    
+#     bg_style = f"""
+#     <style>
+#     .stApp {{
+#         background: url("data:image/jpg;base64,{encoded_image}") no-repeat center center fixed;
+#         background-size: cover;
+#     }}
+#     .box {{
+#         padding: 20px;
+#         border-radius: 10px;
+#         color: white;
+#         margin-bottom: 40px;
+#         backdrop-filter: blur(5px); /* Makes content boxes more readable */
+#     }}
+#     .spacer {{
+#         height: 20px;
+#     }}
+#     </style>
+#     """
+#     st.markdown(bg_style, unsafe_allow_html=True)
+
+# # Set background image
+# set_background("Background.jpg")
 
 # Function to generate random background colors
 def random_color():
     return f"#{random.randint(100000, 0xFFFFFF):06x}"
-
-# Set page title and icon
-st.set_page_config(page_title="Rushikesh Deshmukh - Portfolio", page_icon="📂", layout="wide")
 
 # Load passport photo with increased size
 passport_photo = Image.open("Small.jpg")
@@ -87,8 +116,10 @@ with col2:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<h2>🎓 Education</h2>"
                 "<ul>"
-                "<li><strong>M.Sc. (Computer Science)</strong> - MIT Arts, Commerce and Science College, Alandi (79.95%) (2022-2024)</li>"
-                "<li><strong>B.Sc. (Computer Science)</strong> - G.H. Raisoni College of Arts, Commerce and Science, Wagholi (78.10%) (2018-2021)</li>"
+                "<li><strong>M.Sc. (Computer Science)</strong> - 79.95% (2022-2024) MIT Arts, Commerce and Science College </li>"
+                "<li><strong>B.Sc. (Computer Science)</strong> - 78.10% (2018-2021) G. H. Raisoni College of Arts, Commerce and Science </li>"
+                "<li><strong>HSC </strong> - 74.92% (2018) NES Highschool and Jr. College </li>"
+                "<li><strong>SSC </strong> - 79.60% (2016) Sadashivrao Mane Vidyalay </li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
