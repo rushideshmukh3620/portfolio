@@ -194,6 +194,19 @@ st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
 col1, col2 = st.columns([1, 2])  
 
 with col2:
+    st.markdown(f"""
+    <div class='box' style='background-color: {random_color()};'>
+        <h4>🖼️ Image Enhancement App 🛠️<a href='https://imageenhancement.streamlit.app/' style='color:white;'> Live Demo 🚀</a></h4>
+        <p>An interactive application that allows users to upload images, upon which it automatically applies a suite of enhancement techniques, including sharpening, denoising, and contrast adjustment, to improve image quality without requiring user input. The app provides a side-by-side comparison of the original and enhanced images, enabling users to visualize the improvements effectively.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
+
+# --- PROJECTS (Left) ---
+col1, col2 = st.columns([2, 1])  
+
+with col1:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<h4>🚗 Car Price Prediction System 💰</h4>"
                 "<p>A machine learning-based model that predicts the approximate selling price of a car based on key factors such as fuel type, number of previous owners, kilometers driven, and other vehicle specifications. By analyzing historical sales data and market trends, this model helps users make informed decisions when buying or selling a car, ensuring a fair and competitive price estimate.</p>"
@@ -201,10 +214,10 @@ with col2:
 
 st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
 
-# --- CERTIFICATIONS (Left) ---
-col1, col2 = st.columns([2, 1])
+# --- CERTIFICATIONS (Right) ---
+col1, col2 = st.columns([1, 2])
 
-with col1:
+with col2:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<h3>📜 Certifications</h3>"
                 "<ul>"
