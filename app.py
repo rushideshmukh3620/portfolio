@@ -113,7 +113,7 @@ with col1:
     st.subheader("💼 Work Experience")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<h4>Data Science Intern - Futurism Technologies Pvt. Ltd.</h4>"
-                "<p><em>Dec 2024 - Present, Pune</em></p>"
+                "<p><em>Dec 2024 - March 2025, Pune</em></p>"
                 "<ul>"
                 "<li>Developed an advanced real-time object detection system using deep learning and computer vision techniques for high accuracy.</li>"
                 "<li>Built an intelligent chatbot leveraging natural language processing and retrieval-augmented generation, integrated with an optimized database for efficient and context-aware responses.</li>"
