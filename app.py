@@ -182,9 +182,9 @@ st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
 col1, col2 = st.columns([2, 1])  
 
 with col1:
-    st.subheader("🚀 Projects")
+    st.subheader("🎯 Projects")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h4>🎓 SGPA Prediction 📊 <a href='https://github.com/rushideshmukh3620/SGPAPrediction.git' style='color:white;'> View Project 👀</a></h4>"
+                "<h4>🎓 SGPA Prediction 📊 <a href='https://github.com/rushideshmukh3620/SGPAPrediction.git' style='color:white;'> GitHub Repo 🔗</a></h4>"
                 "<p>A predictive model designed to estimate SGPA (Semester Grade Point Average) for the fifth semester based on the academic performance of the previous four semesters. By analyzing historical data, the model identifies patterns and trends, helping students get an early estimate of their expected grades. This can assist in performance tracking, academic planning, and goal setting for future improvements.</p>"
                 "</div>", unsafe_allow_html=True)
 
