@@ -44,7 +44,7 @@ def random_color():
 
 
 # Load passport photo with increased size
-passport_photo = Image.open("Small.jpg")
+passport_photo = Image.open("Rushi.jpg")
 
 # Custom CSS for styling sections
 st.markdown("""
