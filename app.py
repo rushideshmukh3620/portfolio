@@ -70,7 +70,7 @@ with col1:
 with col2:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<h1>Rushikesh Deshmukh</h1>"
-                "<h3>Data Scientist</h3>"
+                "<h3>Software Development Engineer</h3>"
                 "<p>📧 <a href='mailto:rushideshmukh3620@gmail.com' style='color:white;'>rushideshmukh3620@gmail.com</a></p>"
                 "<p>🔗 <a href='https://linkedin.com/in/rushideshmukh3620' style='color:white;'>LinkedIn</a> | "
                 "<a href='https://github.com/rushideshmukh3620' style='color:white;'>GitHub</a></p>"
@@ -83,24 +83,26 @@ st.markdown("---")
 col1, col2 = st.columns([2, 1])  
 
 with col1:
+    st.subheader("🙋‍♂️ About Me")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h2>🙋‍♂️ About Me</h2>"
-                "<p>Aspiring Data Scientist with a passion for AI-driven solutions and automation. Experienced in developing intelligent systems, predictive models, and data-driven applications. Always eager to learn, innovate, and solve real-world problems using data and technology.</p>"
+                "<p>Backend Software Engineer with experience building scalable REST APIs, microservices, and data processing systems in fintech environments. Skilled in Python, Node.js, .NET, and Go, with hands-on experience in API integrations, authentication systems, and automation pipelines.</p>"
                 "</div>", unsafe_allow_html=True)
 
 st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)  
 
-# --- EDUCATION (Right) ---
-col1, col2 = st.columns([1, 2])  
+# --- WORK EXPERIENCE (Right) ---
+col1, col2 = st.columns([1, 2])
 
 with col2:
+    st.subheader("💼 Work Experience")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h2>🎓 Education</h2>"
+                "<h4>Software Developer - Centricity Wealth Tech Private Limited</h4>"
+                "<p><em>April 2025 - Present</em></p>"
                 "<ul>"
-                "<li><strong>M.Sc. (Computer Science)</strong> - 79.95% (2022-2024) MIT Arts, Commerce and Science College </li>"
-                "<li><strong>B.Sc. (Computer Science)</strong> - 78.10% (2018-2021) G. H. Raisoni College of Arts, Commerce and Science </li>"
-                "<li><strong>HSC </strong> - 74.92% (2018) NES Highschool and Jr. College </li>"
-                "<li><strong>SSC </strong> - 79.60% (2016) Sadashivrao Mane Vidyalay </li>"
+                "<li>Developed backend services using Python and JavaScript to capture user consent, retrieve financial PDFs via Gmail API, and convert extracted data into structured JSON using external APIs.</li>"
+                "<li>Built REST APIs using .NET and SQL Server with stored procedures following database-first architecture.</li>"
+                "<li>Implemented Node.js automation scripts for document retrieval, API integration, and structured PDF generation; handled manual deployment on Linux servers using MobaXterm.</li>"
+                "<li>Designed Identity Provider (IDP) service using Go and PostgreSQL for client onboarding and authentication workflows.</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -110,10 +112,9 @@ st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
 col1, col2 = st.columns([2, 1])  
 
 with col1:
-    st.subheader("💼 Work Experience")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h4>Data Science Intern - Futurism Technologies Pvt. Ltd.</h4>"
-                "<p><em>Dec 2024 - March 2025, Pune</em></p>"
+                "<h4>Data Science Intern - Futurism Technologies Private Limited</h4>"
+                "<p><em>Dec 2024 - March 2025</em></p>"
                 "<ul>"
                 "<li>Developed an advanced real-time object detection system using deep learning and computer vision techniques for high accuracy.</li>"
                 "<li>Built an intelligent chatbot leveraging natural language processing and retrieval-augmented generation, integrated with an optimized database for efficient and context-aware responses.</li>"
@@ -140,43 +141,6 @@ with col2:
                 "</div>", unsafe_allow_html=True)
 
 st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
-
-# --- SKILLS (Left) ---
-col1, col2 = st.columns([2, 1])  
-
-with col1:
-    st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h2>💡 Skills</h2>"
-                "<ul>"
-                "<li><strong> Programming & Development:</strong> Python, Flask, Streamlit, Selenium</li>"
-                "<li><strong> Machine Learning & AI:</strong> Deep Learning, NLP, RAG, Langchain, LLM</li>"
-                "<li><strong> Data Handling & Databases:</strong> SQL, NoSQL, MongoDB, Web Scraping</li>"
-                "<li><strong> Data Visualization:</strong> PowerBI, Matplotlib, Seaborn</li>"
-                "<li><strong> Version Control & Collaboration:</strong> Git, GitHub</li>"
-                "<li><strong> Software Development:</strong> Backend Development, API Integration, Debugging</li>"
-                "</ul>"
-                "</div>", unsafe_allow_html=True)
-
-st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
-
-
-# --- INTERESTS (Right) ---
-col1, col2 = st.columns([1, 2])
-
-with col2:
-    st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h2>🔍 Interests</h2>"
-                "<ul>"
-                "<li><strong> Machine Learning & AI:</strong> Exploring AI-driven models for automation</li>"
-                "<li><strong> Web Scraping & Data Extraction:</strong> Gathering insights from large-scale web data</li>"
-                "<li><strong> Artificial Intelligence:</strong> Leveraging LLMs and NLP for human-like interactions</li>"
-                "<li><strong> Data Science & Analytics:</strong> Transforming raw data into actionable insights</li>"
-                "<li><strong> Tech Innovation:</strong> Building intelligent systems that solve real-world challenges</li>"
-                "</ul>"
-                "</div>", unsafe_allow_html=True)
-
-st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
-
 
 # --- PROJECTS (Left) ---
 col1, col2 = st.columns([2, 1])  
@@ -218,13 +182,62 @@ st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
 col1, col2 = st.columns([1, 2])
 
 with col2:
+    st.subheader("📜 Certifications")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h3>📜 Certifications</h3>"
                 "<ul>"
                 "<li> Full Stack Data Science & AI (Naresh IT, Oct 2021 - Mar 2022) <a href='https://www.linkedin.com/posts/rushideshmukh3620_machinelearning-datascience-artificialintelligence-activity-7163174936453234690-Y7FQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
                 "<li> Data Analytics and Visualization Job Simulation (Accenture, January 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-forage-accenture-activity-7150485871014617088-mYoV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
                 "<li> Data Visualisation: Empowering Business with Effective Insights (TATA, January 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-forage-tcs-activity-7155951764121268224-eDB5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
                 "<li> Data Science Job Simulation (British Airways, Apr 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-certification-continuouslearning-activity-7198595719371378688-MnIW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
+                "</ul>"
+                "</div>", unsafe_allow_html=True)
+
+st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
+
+# --- SKILLS (Left) ---
+col1, col2 = st.columns([2, 1])  
+
+with col1:
+    st.subheader("💡 Skills")
+    st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
+                "<ul>"
+                "<li><strong> Languages:</strong> Python, JavaScript, Go, SQL</li>"
+                "<li><strong> Backend Development:</strong> Flask, Node.js, .NET, REST APIs, Microservices, API Integration</li>"
+                "<li><strong> Databases:</strong> PostgreSQL, SQL Server, MongoDB, Neo4j</li>"
+                "<li><strong> Data Processing:</strong> Web Scraping, Data Extraction, Automation Scripts</li>"
+                "<li><strong> Tools & Technologies:</strong> Docker, Linux, Git, Selenium, MobaXterm</li>"
+                "</ul>"
+                "</div>", unsafe_allow_html=True)
+
+st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
+
+
+# --- INTERESTS (Right) ---
+col1, col2 = st.columns([1, 2])
+
+with col2:
+    st.subheader("🔍 Interests")
+    st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
+                "<ul>"
+                "<li><strong> Building scalable backend systems and APIs</li>"
+                "<li><strong> Designing data processing and automation workflows</li>"
+                "<li><strong> Applying machine learning in backend applications</li>"
+                "</ul>"
+                "</div>", unsafe_allow_html=True)
+
+st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
+
+# --- EDUCATION (Left) ---
+col1, col2 = st.columns([2, 1])  
+
+with col1:
+    st.subheader("🎓 Education")
+    st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
+                "<ul>"
+                "<li><strong>M.Sc. (Computer Science)</strong> - 79.95% (2022-2024) MIT Arts, Commerce and Science College </li>"
+                "<li><strong>B.Sc. (Computer Science)</strong> - 78.10% (2018-2021) G. H. Raisoni College of Arts, Commerce and Science </li>"
+                "<li><strong>HSC </strong> - 74.92% (2018) NES Highschool and Jr. College </li>"
+                "<li><strong>SSC </strong> - 79.60% (2016) Sadashivrao Mane Vidyalay </li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
