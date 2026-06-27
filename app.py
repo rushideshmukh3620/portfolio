@@ -85,7 +85,7 @@ col1, col2 = st.columns([2, 1])
 with col1:
     st.subheader("🙋‍♂️ About Me")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<p>Backend Software Engineer with experience building scalable REST APIs, microservices, and data processing systems in fintech environments. Skilled in Python, Node.js, .NET, and Go, with hands-on experience in API integrations, authentication systems, and automation pipelines.</p>"
+                "<p>Backend Developer with experience building REST APIs, backend services, and data processing applications using Python and Django. Experienced in API integrations, financial document processing, authentication workflows, and database-driven fintech applications.</p>"
                 "</div>", unsafe_allow_html=True)
 
 st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)  
@@ -99,9 +99,9 @@ with col2:
                 "<h4>Software Developer - Centricity Wealth Tech Private Limited</h4>"
                 "<p><em>April 2025 - Present</em></p>"
                 "<ul>"
-                "<li>Developed backend services using Python and JavaScript to capture user consent, retrieve financial PDFs via Gmail API, and convert extracted data into structured JSON using external APIs.</li>"
-                "<li>Built REST APIs using .NET and SQL Server with stored procedures following database-first architecture.</li>"
-                "<li>Implemented Node.js automation scripts for document retrieval, API integration, and structured PDF generation; handled manual deployment on Linux servers using MobaXterm.</li>"
+                "<li>Developed Python services to capture user consent, retrieve financial PDFs via Gmail API, and transform extracted data into structured JSON.</li>"
+                "<li>Built REST APIs and backend modules using Django and PostgreSQL for financial planning and investment management workflows.</li>"
+                "<li>Implemented business logic and third-party API integrations for fintech applications.</li>"
                 "<li>Designed Identity Provider (IDP) service using Go and PostgreSQL for client onboarding and authentication workflows.</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
@@ -116,10 +116,8 @@ with col1:
                 "<h4>Data Science Intern - Futurism Technologies Private Limited</h4>"
                 "<p><em>Dec 2024 - March 2025</em></p>"
                 "<ul>"
-                "<li>Developed an advanced real-time object detection system using deep learning and computer vision techniques for high accuracy.</li>"
-                "<li>Built an intelligent chatbot leveraging natural language processing and retrieval-augmented generation, integrated with an optimized database for efficient and context-aware responses.</li>"
-                "<li>Developed a web scraping solution using automation tools to extract data from dynamic websites efficiently and accurately.</li>"
-                "<li>Designed an interactive frontend with Streamlit and optimized chatbot interactions for a seamless user experience.</li>"
+                "<li>Developed NLP-based chatbot using Retrieval-Augmented Generation (RAG).</li>"
+                "<li>Developed Python-based web scraping scripts using Selenium and BeautifulSoup for data extraction.</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -133,10 +131,8 @@ with col2:
                 "<h4>Machine Learning Engineer Intern - The Entrepreneurship Network</h4>"
                 "<p><em>Feb 2024 - Jun 2024</em></p>"
                 "<ul>"
-                "<li>Develop and maintain web applications using Python and Flask framework.</li>"
-                "<li>Create and optimize database schemas using MongoDB for efficient data storage and retrieval.</li>"
-                "<li>Collaborate with frontend developers to integrate user- facing elements with server-side logic.</li>"
-                "<li>Troubleshoot and debug issues reported by users or identified during testing phases.</li>"
+                "<li>Developed HRMS portal backend using Python and Django.</li>"
+                "<li>Designed database models and REST APIs for employee management workflows using MongoDB.</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -201,11 +197,11 @@ with col1:
     st.subheader("💡 Skills")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<ul>"
-                "<li><strong> Languages:</strong> Python, JavaScript, Go, SQL</li>"
-                "<li><strong> Backend Development:</strong> Flask, Node.js, .NET, REST APIs, Microservices, API Integration</li>"
-                "<li><strong> Databases:</strong> PostgreSQL, SQL Server, MongoDB, Neo4j</li>"
-                "<li><strong> Data Processing:</strong> Web Scraping, Data Extraction, Automation Scripts</li>"
-                "<li><strong> Tools & Technologies:</strong> Docker, Linux, Git, Selenium, MobaXterm</li>"
+                "<li><strong> Languages:</strong> Python, Go, SQL</li>"
+                "<li><strong> Frameworks:</strong> Django, Django REST Framework</li>"
+                "<li><strong> Databases:</strong> PostgreSQL, MongoDB</li>"
+                "<li><strong> Data Processing:</strong> Web Scraping, Data Extraction</li>"
+                "<li><strong> Tools & Technologies:</strong> Docker, Git</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -221,7 +217,6 @@ with col2:
                 "<ul>"
                 "<li><strong> Building scalable backend systems and APIs</li>"
                 "<li><strong> Designing data processing and automation workflows</li>"
-                "<li><strong> Applying machine learning in backend applications</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
