@@ -71,7 +71,8 @@ with col2:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<h1>Rushikesh Deshmukh</h1>"
                 "<h3>Software Development Engineer</h3>"
-                "<p>📧 <a href='mailto:rushideshmukh3620@gmail.com' style='color:white;'>rushideshmukh3620@gmail.com</a></p>"
+                "<p>📧 <a href='mailto:rushideshmukh3620@gmail.com' style='color:white;'>rushideshmukh3620@gmail.com</a> | "
+                "📱 <a href='tel:+919970930912' style='color:white;'>+91 9970930912</a></p>"
                 "<p>🔗 <a href='https://linkedin.com/in/rushideshmukh3620' style='color:white;'>LinkedIn</a> | "
                 "<a href='https://github.com/rushideshmukh3620' style='color:white;'>GitHub</a></p>"
                 "</div>", unsafe_allow_html=True)
@@ -85,7 +86,7 @@ col1, col2 = st.columns([2, 1])
 with col1:
     st.subheader("🙋‍♂️ About Me")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<p>Backend Developer with experience building REST APIs, backend services, and data processing applications using Python and Django. Experienced in API integrations, financial document processing, authentication workflows, and database-driven fintech applications.</p>"
+                "<p>Software Developer focused on .NET backend development using C#, ASP.NET Core Web API, and Microsoft SQL Server. Hands-on experience in API development and enhancements, SQL queries, stored procedures, and database operations using Entity Framework and Dapper. Also experienced in Python and Django backend development.</p>"
                 "</div>", unsafe_allow_html=True)
 
 st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)  
@@ -99,10 +100,10 @@ with col2:
                 "<h4>Software Developer - Centricity Wealth Tech Private Limited</h4>"
                 "<p><em>April 2025 - Present</em></p>"
                 "<ul>"
-                "<li>Developed Python services to capture user consent, retrieve financial PDFs via Gmail API, and transform extracted data into structured JSON.</li>"
-                "<li>Built REST APIs and backend modules using Django and PostgreSQL for financial planning and investment management workflows.</li>"
-                "<li>Implemented business logic and third-party API integrations for fintech applications.</li>"
-                "<li>Designed Identity Provider (IDP) service using Go and PostgreSQL for client onboarding and authentication workflows.</li>"
+                "<li>Developed and enhanced backend REST APIs using C# and .NET to support financial application requirements.</li>"
+                "<li>Worked with Microsoft SQL Server, including stored procedures and existing database structures.</li>"
+                "<li>Implemented API functionality and integrated database operations with application workflows.</li>"
+                "<li>Performed application deployment and server-related operations using MobaXterm.</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -113,11 +114,13 @@ col1, col2 = st.columns([2, 1])
 
 with col1:
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h4>Data Science Intern - Futurism Technologies Private Limited</h4>"
+                "<h4>Software Developer Intern - Futurism Technologies Private Limited</h4>"
                 "<p><em>Dec 2024 - March 2025</em></p>"
                 "<ul>"
-                "<li>Developed NLP-based chatbot using Retrieval-Augmented Generation (RAG).</li>"
-                "<li>Developed Python-based web scraping scripts using Selenium and BeautifulSoup for data extraction.</li>"
+                "<li>Contributed to backend development of the Adibhuja e-commerce application using C# and ASP.NET Core.</li>"
+                "<li>Created and modified REST API endpoints based on project requirements.</li>"
+                "<li>Worked with SQL Server tables and database queries using Entity Framework and Dapper.</li>"
+                "<li>Debugged existing APIs, fixed issues, and tested API functionality.</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -131,8 +134,8 @@ with col2:
                 "<h4>Machine Learning Engineer Intern - The Entrepreneurship Network</h4>"
                 "<p><em>Feb 2024 - Jun 2024</em></p>"
                 "<ul>"
-                "<li>Developed HRMS portal backend using Python and Django.</li>"
-                "<li>Designed database models and REST APIs for employee management workflows using MongoDB.</li>"
+                "<li>Developed backend functionality for an employee management application using Python and Django.</li>"
+                "<li>Created REST API endpoints and implemented database operations for employee records.</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -163,32 +166,21 @@ with col2:
 
 st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
 
-# --- PROJECTS (Left) ---
-col1, col2 = st.columns([2, 1])  
+# # --- CERTIFICATIONS (Left) ---
+# col1, col2 = st.columns([2, 1])
 
-with col1:
-    st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<h4>🚗 Car Price Prediction System 💰</h4>"
-                "<p>A machine learning-based model that predicts the approximate selling price of a car based on key factors such as fuel type, number of previous owners, kilometers driven, and other vehicle specifications. By analyzing historical sales data and market trends, this model helps users make informed decisions when buying or selling a car, ensuring a fair and competitive price estimate.</p>"
-                "</div>", unsafe_allow_html=True)
+# with col2:
+#     st.subheader("📜 Certifications")
+#     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
+#                 "<ul>"
+#                 "<li> Full Stack Data Science & AI (Naresh IT, Oct 2021 - Mar 2022) <a href='https://www.linkedin.com/posts/rushideshmukh3620_machinelearning-datascience-artificialintelligence-activity-7163174936453234690-Y7FQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
+#                 "<li> Data Analytics and Visualization Job Simulation (Accenture, January 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-forage-accenture-activity-7150485871014617088-mYoV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
+#                 "<li> Data Visualisation: Empowering Business with Effective Insights (TATA, January 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-forage-tcs-activity-7155951764121268224-eDB5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
+#                 "<li> Data Science Job Simulation (British Airways, Apr 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-certification-continuouslearning-activity-7198595719371378688-MnIW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
+#                 "</ul>"
+#                 "</div>", unsafe_allow_html=True)
 
-st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
-
-# --- CERTIFICATIONS (Right) ---
-col1, col2 = st.columns([1, 2])
-
-with col2:
-    st.subheader("📜 Certifications")
-    st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
-                "<ul>"
-                "<li> Full Stack Data Science & AI (Naresh IT, Oct 2021 - Mar 2022) <a href='https://www.linkedin.com/posts/rushideshmukh3620_machinelearning-datascience-artificialintelligence-activity-7163174936453234690-Y7FQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
-                "<li> Data Analytics and Visualization Job Simulation (Accenture, January 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-forage-accenture-activity-7150485871014617088-mYoV?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
-                "<li> Data Visualisation: Empowering Business with Effective Insights (TATA, January 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-forage-tcs-activity-7155951764121268224-eDB5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
-                "<li> Data Science Job Simulation (British Airways, Apr 2024) <a href='https://www.linkedin.com/posts/rushideshmukh3620_connections-certification-continuouslearning-activity-7198595719371378688-MnIW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADo1sJoBOub6tglAKPatjr68g1nDqwgJlzg' style='color:white; text-decoration: none;'>👁️</a></li>"
-                "</ul>"
-                "</div>", unsafe_allow_html=True)
-
-st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
+# st.markdown('<div class="spacer"></div>', unsafe_allow_html=True)
 
 # --- SKILLS (Left) ---
 col1, col2 = st.columns([2, 1])  
@@ -197,11 +189,11 @@ with col1:
     st.subheader("💡 Skills")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<ul>"
-                "<li><strong> Languages:</strong> Python, Go, SQL</li>"
-                "<li><strong> Frameworks:</strong> Django, Django REST Framework</li>"
-                "<li><strong> Databases:</strong> PostgreSQL, MongoDB</li>"
-                "<li><strong> Data Processing:</strong> Web Scraping, Data Extraction</li>"
-                "<li><strong> Tools & Technologies:</strong> Docker, Git</li>"
+                "<li><strong>Programming:</strong> C#, SQL</li>"
+                "<li><strong>Frameworks:</strong> .NET, ASP.NET Core Web API</li>"
+                "<li><strong>Database:</strong> Microsoft SQL Server</li>"
+                "<li><strong>ORM / Data Access:</strong> Entity Framework, Dapper</li>"
+                "<li><strong>Tools:</strong> Git, Docker, MobaXterm</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -215,8 +207,8 @@ with col2:
     st.subheader("🔍 Interests")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<ul>"
-                "<li><strong> Building scalable backend systems and APIs</li>"
-                "<li><strong> Designing data processing and automation workflows</li>"
+                "<li>Building backend applications and REST APIs</li>"
+                "<li>Working with relational databases and improving API functionality</li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
@@ -229,10 +221,10 @@ with col1:
     st.subheader("🎓 Education")
     st.markdown(f"<div class='box' style='background-color: {random_color()};'>"
                 "<ul>"
-                "<li><strong>M.Sc. (Computer Science)</strong> - 79.95% (2022-2024) MIT Arts, Commerce and Science College </li>"
-                "<li><strong>B.Sc. (Computer Science)</strong> - 78.10% (2018-2021) G. H. Raisoni College of Arts, Commerce and Science </li>"
-                "<li><strong>HSC </strong> - 74.92% (2018) NES Highschool and Jr. College </li>"
-                "<li><strong>SSC </strong> - 79.60% (2016) Sadashivrao Mane Vidyalay </li>"
+                "<li><strong>M.Sc. (Computer Science)</strong> - 79.95% (2022-2024) MIT Arts, Commerce and Science College, Alandi, Pune </li>"
+                "<li><strong>B.Sc. (Computer Science)</strong> - 78.10% (2018-2021) G. H. Raisoni College of Arts, Commerce and Science, Wagholi, Pune </li>"
+                "<li><strong>HSC </strong> - 74.92% (2018) NES Highschool and Jr. College, Nimsakhar, Indapur, Pune </li>"
+                "<li><strong>SSC </strong> - 79.60% (2016) Sadashivrao Mane Vidyalay, Manki, Malshiras, Solapur </li>"
                 "</ul>"
                 "</div>", unsafe_allow_html=True)
 
